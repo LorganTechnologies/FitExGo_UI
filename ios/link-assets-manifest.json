@@ -1,0 +1,73 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Montserrat-Black.ttf",
+      "sha1": "fca130f21601346cce37bb8a9526ff01af66d912"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Bold.ttf",
+      "sha1": "04052dc3b846609216de1e0cbcec337c6b6e74f6"
+    },
+    {
+      "path": "assets/fonts/Montserrat-ExtraBold.ttf",
+      "sha1": "1914bc1981e6ceceadb2f6d72455b4e89e04965c"
+    },
+    {
+      "path": "assets/fonts/Montserrat-ExtraLight.ttf",
+      "sha1": "7c594b126941460bd2f3b47097fd6222f52277e7"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Light.ttf",
+      "sha1": "6f21894a80049259ef71fcba135218695b41b67a"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Medium.ttf",
+      "sha1": "6b57d12e018c64352e202f8ef3bf7f431f76d935"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "de57aa03e4821fdbe6c34ec2c895e8b5c914e837"
+    },
+    {
+      "path": "assets/fonts/Montserrat-SemiBold.ttf",
+      "sha1": "8580dec824bbdb6ce24d04d3aaf360776339f0a7"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Thin.ttf",
+      "sha1": "8c871991960f520a31635f95be6c346b659e2c8c"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Bold.ttf",
+      "sha1": "683902c971f8cf4619284dae418a13b217ff83e3"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Italic.ttf",
+      "sha1": "f4eb5f531367ba644314d9687fa87f42d980d895"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Light.ttf",
+      "sha1": "7ab40f535c22f5e10ef2c93606ad54f06085ffa2"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Medium.ttf",
+      "sha1": "b9b780eeb03149e11054b30571c41f9fb28b168e"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Regular.ttf",
+      "sha1": "9d9fc0953860de3861f118deca4fbbbd82b450fe"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Semibold.ttf",
+      "sha1": "0d441d3bf81814bdf570d9bf04a295ea825b0857"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Thin.ttf",
+      "sha1": "d1d4a3cc3a46d9c26ff9492696e40844e65eb29b"
+    },
+    {
+      "path": "assets/fonts/SF Pro Text Ultralight.ttf",
+      "sha1": "b2e35879f70a5c3a293216ae0d6a9ba528b402c3"
+    }
+  ]
+}
