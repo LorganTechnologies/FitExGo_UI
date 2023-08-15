@@ -1,0 +1,33 @@
+diff --git a/node_modules/react-native-progress/Circle.js b/node_modules/react-native-progress/Circle.js
+index 79f0a9e..88081de 100644
+--- a/node_modules/react-native-progress/Circle.js
++++ b/node_modules/react-native-progress/Circle.js
+@@ -122,18 +122,19 @@ export class ProgressCircle extends Component {
+         <Surface
+           width={size}
+           height={size}
++          fill='none'
+           style={
+             indeterminate && rotation
+               ? {
+-                  transform: [
+-                    {
+-                      rotate: rotation.interpolate({
+-                        inputRange: [0, 1],
+-                        outputRange: ['0deg', '360deg'],
+-                      }),
+-                    },
+-                  ],
+-                }
++                transform: [
++                  {
++                    rotate: rotation.interpolate({
++                      inputRange: [0, 1],
++                      outputRange: ['0deg', '360deg'],
++                    }),
++                  },
++                ],
++              }
+               : undefined
+           }
+         >

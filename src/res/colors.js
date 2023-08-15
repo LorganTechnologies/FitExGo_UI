@@ -13,4 +13,5 @@ export const colors = {
     gray4: "#D8D8D8",
     gray5: "#A3A3A3",
     border2: "#D1D2D2",
+    red: "#FF0000",
 }
