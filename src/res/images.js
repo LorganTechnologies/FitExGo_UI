@@ -30,4 +30,13 @@ export const images = {
     chart: require("../../assets/icons/chart.png"),
     up: require("../../assets/icons/up.png"),
     forward: require("../../assets/icons/forward.png"),
+    date: require("../../assets/icons/date.png"),
+    edit2: require("../../assets/icons/edit2.png"),
+    down: require("../../assets/icons/down.png"),
+    checkWhite: require("../../assets/icons/checkWhite.png"),
+    lock: require("../../assets/icons/lock.png"),
+    logout: require("../../assets/icons/logout.png"),
+    fit: require("../../assets/icons/fit.png"),
+    explore: require("../../assets/icons/explore.png"),
+    pinGo: require("../../assets/icons/pinGo.png"),
 }

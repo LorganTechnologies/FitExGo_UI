@@ -29,19 +29,19 @@ const Dashboard = (props: any) => {
                         <SuperText value="Hello Linh!" color={colors.gray} size={wp(4.5)} regular />
                         <SuperText value="Thursday, 08 July" color={colors.black} size={wp(4.5)} regular />
                     </View>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => { props.navigation.navigate("Profile") }}>
                         <Image source={images.setting} />
                     </TouchableOpacity>
                 </View>
                 <Spacer space={wp(3)} />
-                <View style={styles.pointsWrapper}>
+                <TouchableOpacity onPress={() => { props.navigation.navigate("Rewards"); }} style={styles.pointsWrapper}>
                     <Progress.Circle showsText textStyle={{ fontFamily: fonts.Medium, color: colors.black2 }} borderWidth={0} unfilledColor={colors.gray4} color={colors.primary} thickness={wp(2)} progress={0.8} size={wp(18)} />
                     <View style={{ width: wp(50) }}>
                         <SuperText value="Health Points" color={colors.black2} size={wp(4.5)} medium />
-                        <SuperText value="Awesome Result Keep Going to be a great fitness holder" olor={colors.gray5} size={wp(3.5)} regular />
+                        <SuperText value="Awesome Result Keep Going to be a great fitness holder" color={colors.gray5} size={wp(3.5)} regular />
                     </View>
                     <Image source={images.reward} style={styles.reward} />
-                </View>
+                </TouchableOpacity>
                 <Spacer space={wp(2)} />
                 <View style={styles.row}>
                     <TouchableOpacity onPress={() => { setActiveTab(0) }} style={[styles.switchWrapper, activeTab !== 0 && { backgroundColor: colors.gray3 }]}>
